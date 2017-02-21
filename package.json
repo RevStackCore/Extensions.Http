@@ -1,0 +1,19 @@
+{
+  "name": "RevStackCore.Extensions.Http",
+  "version": "1.0.0",
+  "description": ".net core http extensions",
+  "main": "RevStackCore.Extensions.Http.sln",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RevStackCore/Extensions.Http.git"
+  },
+  "author": "S. Francis",
+  "license": "MIT",
+  "bugs": {
+		"url": "https://github.com/RevStackCore/Extensions.Http/issues"
+  },
+	"homepage": "https://github.com/RevStackCore/Extensions.Http"
+}

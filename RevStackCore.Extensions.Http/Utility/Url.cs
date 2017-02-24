@@ -8,17 +8,29 @@ namespace RevStackCore.Extensions.Http
 	{
 		private readonly string SCHEME_DELIMITER = "://";
 		private HttpRequest _request;
+		private string _host = null;
 		public UrlUtility(HttpRequest request)
 		{
 			_request = request;
+		}
+		public UrlUtility(HttpRequest request,string host)
+		{
+			_request = request;
+			_host = host;
 		}
 		public string Host
 		{
 			get
 			{
-
-				string result = _request.Scheme + SCHEME_DELIMITER + _request.Host;
-				return result;
+				if (!string.IsNullOrEmpty(_host))
+				{
+					return _host;
+				}
+				else
+				{
+					string result = _request.Scheme + SCHEME_DELIMITER + _request.Host;
+					return result;
+				}
 			}
 		}
 

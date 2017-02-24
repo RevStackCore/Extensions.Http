@@ -1,6 +1,6 @@
 {
   "name": "RevStackCore.Extensions.Http",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": ".net core http extensions",
   "main": "RevStackCore.Extensions.Http.sln",
   "scripts": {

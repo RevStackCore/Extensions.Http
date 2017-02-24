@@ -13,7 +13,7 @@ namespace RevStackCore.Extensions.Http
 
 		public UrlUtility Get(HttpRequest request)
 		{
-			if (!string.IsNullOrEmpty(_dbContext.Host))
+			if (string.IsNullOrEmpty(_dbContext.Host))
 			{
 				return new UrlUtility(request);
 			}

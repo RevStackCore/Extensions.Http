@@ -28,7 +28,7 @@ namespace RevStackCore.Extensions.Http
 				}
 				else
 				{
-					string result = _request.Scheme + SCHEME_DELIMITER + _request.Host;
+                    string result = _request.Scheme + SCHEME_DELIMITER + _request.Host.ToString();
 					return result;
 				}
 			}

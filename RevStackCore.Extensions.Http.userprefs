@@ -1,9 +1,5 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="RevStackCore.Extensions.Http/Utility/Url.cs">
-    <Files>
-      <File FileName="RevStackCore.Extensions.Http/Utility/Url.cs" Line="29" Column="9" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

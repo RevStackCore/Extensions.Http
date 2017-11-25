@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.5</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
 	<PackageId>RevStackCore.Extensions.Http</PackageId>
-    <PackageVersion>1.1.0</PackageVersion>
+    <PackageVersion>2.0.0</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>.net core http extensions</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -21,10 +21,8 @@
     <Folder Include="Service\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="1.1.0">
-    </PackageReference>
-    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="1.1.0">
-    </PackageReference>
     <PackageReference Include="RevStackCore.Extensions" Version="1.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.0.1" />
   </ItemGroup>
 </Project>

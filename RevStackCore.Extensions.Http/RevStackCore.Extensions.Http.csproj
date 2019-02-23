@@ -3,11 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 	<PackageId>RevStackCore.Extensions.Http</PackageId>
-    <PackageVersion>2.0.0</PackageVersion>
+    <PackageVersion>2.0.1</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>.net core http extensions</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>Net Standard 1.5 release</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/RevStackCore/Extensions.Http.git</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/RevStackCore/Extensions.Http/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://s3.amazonaws.com/revstack/icons/revstackcore-64x64.png</PackageIconUrl>
     <Copyright>Copyright 2017</Copyright>
     <PackageTags>RevStackCore Http Extensions</PackageTags>	
   </PropertyGroup>
